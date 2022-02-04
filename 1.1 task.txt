@@ -1,0 +1,54 @@
+
+Q.1 Should be able to search all available fields/parameters. 
+ 
+Ans.
+
+(search?q=Facebook&type=page&fields=name, likes, location)
+
+{
+  "data": [
+    {
+      "name": "Facebook NY", 
+      "likes": 71564, 
+      "location": {
+      "street": "770 Broadway", 
+      "city": "New York", 
+      "state": "NY", 
+      "country": "United States", 
+      "zip": "10003", 
+      "latitude": 40.730901749524, 
+      "longitude": -73.991377364328
+      }, 
+      "id": "28864583650"
+    }, 
+    {
+      "name": "Facebook London", 
+      "likes": 56441, 
+      "location": {
+      "street": "10 Brock Street", 
+      "city": "London", 
+      "state": "", 
+      "country": "United Kingdom", 
+      "zip": "NW1 3FG", 
+      "latitude": 51.5258476, 
+      "longitude": -0.1394228
+      }, 
+      "id": "265781023507354"
+    }, 
+    {
+      "name": "Facebook Paris", 
+      "likes": 29740, 
+      "location": {
+      "street": "", 
+      "city": "Paris", 
+      "state": "", 
+      "country": "France", 
+      "zip": "75017", 
+      "latitude": 48.883443087419, 
+      "longitude": 2.3023060392957
+      }, 
+      "id": "147424071942327"
+    } 
+  ]
+}
+
